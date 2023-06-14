@@ -1,0 +1,12 @@
+.main_content {
+  display: flex;
+  width: 100%;
+}
+.main {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background-color: #eee;
+}

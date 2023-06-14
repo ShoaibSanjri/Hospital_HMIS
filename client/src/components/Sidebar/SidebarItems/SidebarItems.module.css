@@ -1,0 +1,16 @@
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+}
+.selected {
+  border-left: 4px solid rgb(38, 166, 209);
+  background-color: #eee;
+}
+
+.sidebarItem > * {
+  pointer-events: none;
+}
