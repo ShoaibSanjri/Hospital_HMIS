@@ -16,7 +16,7 @@ const Patient_Register = () => {
       <Box
         display="flex"
         justifyContent="space-between"
-        p="5px"
+        p="4px"
         position={"absolute"}
         top={0}
         left={0}
