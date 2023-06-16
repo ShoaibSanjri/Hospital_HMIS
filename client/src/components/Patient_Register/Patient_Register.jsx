@@ -6,8 +6,23 @@ import { LuPointer } from "react-icons/lu";
 import { BsPersonFillAdd } from "react-icons/bs";
 const Patient_Register = () => {
   return (
-    <Box border="1px red solid" w="100%" h="100vh" bg="#319795">
-      <Box display="flex" justifyContent="space-between" p="5px">
+    <Box
+      w="100%"
+      h="100vh"
+      bg="#319795"
+      padding={"2rem 0.5rem 4rem"}
+      position={"relative"}
+    >
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        p="4px"
+        position={"absolute"}
+        top={0}
+        left={0}
+        width={"100%"}
+        alignItems={"center"}
+      >
         <Text>Patient Registration</Text>
         <Box display="flex" justifyContent="space-between" gap="10px">
           <BiCheckDouble style={{ cursor: "pointer" }} />
@@ -15,7 +30,7 @@ const Patient_Register = () => {
           <BiDotsVerticalRounded style={{ cursor: "pointer" }} />
         </Box>
       </Box>
-      <Box bg="white">
+      <Box bg="white" height={"100%"}>
         <Box
           className="register_number"
           display="flex"
@@ -192,8 +207,8 @@ const Patient_Register = () => {
                 <Text>Gender </Text>
                 <Box color="red">*</Box>
               </Box>
-              <select style={{width:"70%"}} >
-                <option >Gender</option>
+              <select style={{ width: "70%" }}>
+                <option>Gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="other">Other</option>
@@ -215,7 +230,7 @@ const Patient_Register = () => {
               fontSize="12px"
             >
               <Text>Marital Status</Text>
-              <select style={{width:"70%"}} name="" id="">
+              <select style={{ width: "70%" }} name="" id="">
                 <option value="">Marital Status </option>
                 <option value="">Married</option>
                 <option value="">Not Married</option>
@@ -230,12 +245,11 @@ const Patient_Register = () => {
               textAlign="center"
             >
               <Text>Occupation </Text>
-              <select style={{width:"70%"}} name="" id="">
+              <select style={{ width: "70%" }} name="" id="">
                 <option value="">occupation </option>
                 <option value="">Engineer</option>
                 <option value="">Social Worker</option>
               </select>
-              
             </Box>
             <Box
               fontSize="12px"
@@ -246,8 +260,8 @@ const Patient_Register = () => {
               textAlign="center"
             >
               <Text>Language</Text>
-              <select style={{width:"70%"}} >
-                <option >Language</option>
+              <select style={{ width: "70%" }}>
+                <option>Language</option>
                 <option value="hindi">Hindi</option>
                 <option value="english">English</option>
                 <option value="other">Other</option>
@@ -269,7 +283,7 @@ const Patient_Register = () => {
               fontSize="12px"
             >
               <Text>Education Level</Text>
-              <select style={{width:"70%"}} name="" id="">
+              <select style={{ width: "70%" }} name="" id="">
                 <option value=""> Select </option>
                 <option value=""></option>
                 <option value=""></option>
@@ -287,12 +301,11 @@ const Patient_Register = () => {
                 <Text> Religion </Text>
                 <Box color="red">*</Box>
               </Box>
-              <select style={{width:"70%"}} name="" id="">
+              <select style={{ width: "70%" }} name="" id="">
                 <option value="">Christian </option>
                 <option value="">Hindu</option>
                 <option value="">Muslim</option>
               </select>
-              
             </Box>
             <Box
               fontSize="12px"
@@ -306,8 +319,8 @@ const Patient_Register = () => {
                 <Text> Citizen </Text>
                 <Box color="red">*</Box>
               </Box>
-              <select style={{width:"70%"}} >
-                <option >Select</option>
+              <select style={{ width: "70%" }}>
+                <option>Select</option>
                 <option value="hindi">India</option>
                 <option value="english">UK</option>
                 <option value="other">Other</option>
@@ -331,14 +344,12 @@ const Patient_Register = () => {
               <Text>Email</Text>
               <Input w="70%" placeholder="Email Id" />
             </Box>
-            
           </Box>
-          
         </Box>
-        <Text p="5px" >Home Address</Text>
+        <Text p="5px">Home Address</Text>
         <hr />
-        <Box className="Home address" >
-        <Box
+        <Box className="Home address">
+          <Box
             className="address"
             display="flex"
             justifyContent="space-between"
@@ -382,7 +393,7 @@ const Patient_Register = () => {
               <Input w="70%" placeholder="Country"></Input>
             </Box>
           </Box>
-        <Box
+          <Box
             className="code"
             display="flex"
             justifyContent="space-between"
@@ -396,9 +407,8 @@ const Patient_Register = () => {
               w="28%"
               fontSize="12px"
             >
-              
-                <Text>Code </Text>
-                
+              <Text>Code </Text>
+
               <Input w="70%" placeholder="Address"></Input>
             </Box>
             <Box
@@ -428,12 +438,10 @@ const Patient_Register = () => {
               <Input type="checkbox"></Input>
             </Box>
           </Box>
-          <Text p="5px" >Payer Information</Text>
+          <Text p="5px">Payer Information</Text>
           <hr />
-          <Box display="flex"
-            justifyContent="space-between"
-            p="10px" >
-          <Box
+          <Box display="flex" justifyContent="space-between" p="10px">
+            <Box
               display="flex"
               justifyContent="space-between"
               alignItems="center"
@@ -441,26 +449,21 @@ const Patient_Register = () => {
               w="28%"
               fontSize="12px"
             >
-              
               <Box display="flex" gap="10px">
                 <Text>Payer </Text>
                 <Box color="red">*</Box>
               </Box>
-                
-              <select style={{width:"70%"}} name="" id="">
+
+              <select style={{ width: "70%" }} name="" id="">
                 <option value="">Private Cash</option>
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
               </select>
             </Box>
-          
-          
           </Box>
-          <Box display="flex"
-            justifyContent="space-between"
-            p="10px" >
-          <Box
+          <Box display="flex" justifyContent="space-between" p="10px">
+            <Box
               display="flex"
               justifyContent="space-between"
               alignItems="center"
@@ -468,19 +471,16 @@ const Patient_Register = () => {
               w="28%"
               fontSize="12px"
             >
-              
-              
-                <Text>Sponser </Text>
-                
-                
-              <select style={{width:"70%"}} name="" id="">
+              <Text>Sponser </Text>
+
+              <select style={{ width: "70%" }} name="" id="">
                 <option value="">Private Cash</option>
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
               </select>
             </Box>
-            </Box>
+          </Box>
         </Box>
       </Box>
     </Box>
