@@ -8,7 +8,7 @@ import { LuPointer } from "react-icons/lu";
 
 const OPB = () => {
   return (
-    <Box border="1px red solid" w="100%" h="100vh" bg="#bed9f1" fontSize="14px">
+    <Box border="1px red solid" w="100%" h="100vh" bg="#bed9f1" fontSize="16px">
       <Box display="flex" justifyContent="space-between" p="10px">
         <Text>Out-Patient Billing</Text>
         <Box display="flex" justifyContent="space-between" gap="10px">
@@ -37,7 +37,7 @@ const OPB = () => {
               <option value=""></option>
               <option value=""></option>
             </select>
-            <Input w="35%" placeholder="Reg. No"></Input>
+            <Input size="sm" w="35%" placeholder="Reg. No"></Input>
             <Box display="flex" justifyContent="space-around" gap="5px">
               <Box>
                 {" "}
@@ -67,7 +67,7 @@ const OPB = () => {
             </Box>
           </Box>
           <Box
-            fontSize="12px"
+            
             display="flex"
             justifyContent="space-between"
             w="33%"
@@ -90,7 +90,7 @@ const OPB = () => {
           </Button>
               </Box>
               <Box bg='#eff5fd' className="name" m="10px" >
-                  <Box display="flex" justifyContent="space-between"  >
+                  <Box display="flex" justifyContent="space-between" alignItems="center"  >
                   <Box  >
                       Mr. Good Luck
                   </Box>
@@ -107,30 +107,30 @@ const OPB = () => {
                           <Text fontWeight="bold" >Mobile No: 8094941896 ,</Text>
                           <Text color="">Outstanding: 0.0</Text>
                       </Box>
-                      <Box display="flex" w="33.3%" justifyContent="space-between"  mr="8%">
+                      <Box display="flex" w="33.3%" justifyContent="space-between" alignItems="center"  mr="8%">
                           <Text>Referral: </Text>
-                          <Input  w="60%" placeholder="Referral" ></Input>
+                          <Input size="sm" w="60%" placeholder="Referral" ></Input>
                       </Box>
                   </Box>
               </Box>
-              <Box className="activity navbar" display="flex" justifyContent="space-between" pt="10px"  textAlign="center" alignItems="center " bg="#bed9f1" m="10px"  >
-                  <Box display="flex" w="94%" gap="7%" >
-                      <Box display="flex" justifyContent="space-between" w="28%">
+              <Box className="activity navbar" display="flex"  justifyContent="space-between" pt="10px"  textAlign="center" alignItems="center " bg="#bed9f1" m="10px"  >
+                  <Box display="flex" w="94%" gap="7%"  >
+                      <Box display="flex" justifyContent="space-between" w="28%" alignItems="center">
                           <Text>Activity</Text>
                           <select style={{width:"60%"}} name="" id="">
                               <option value="">Discount</option>
                           </select>
                       </Box>
-                      <Box display="flex" w="28%" justifyContent="space-between">
+                      <Box display="flex" w="28%" justifyContent="space-between" alignItems="center">
                       <Text>Amount Type</Text>
                           <select style={{width:"60%"}} name="" id="">
                               <option value="">Percentage</option>
                               <option value="">Amount</option>
                           </select>
                       </Box>
-                      <Box display="flex" w="28%" justifyContent="space-between">
+                      <Box display="flex" w="28%" justifyContent="space-between"  alignItems="center">
                           <Text>Value</Text>
-                          <Input placeholder="value" ></Input>
+                          <Input w="60%" size="sm" placeholder="value" ></Input>
                       </Box>
                   </Box>
                   <Box display="flex" justifyContent="space-between" gap="5px">

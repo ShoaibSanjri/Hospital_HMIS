@@ -28,12 +28,12 @@ const Patient_Register = () => {
             alignItems="center"
             textAlign="center"
             w="32%"
-            fontSize="12px"
+            
           >
-            <Text size="sm" fontSize="12px">
+            <Text size="sm" >
               Registration Number
             </Text>
-            <Input placeholder="Reg. No"></Input>
+            <Input w="50%" placeholder="Reg. No"></Input>
             <Box display="flex" justifyContent="space-around" gap="5px">
               <Box>
                 {" "}
